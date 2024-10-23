@@ -1,0 +1,128 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 50px;
+  
+}
+
+.container-1, .container-2 {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px; /* Set a fixed width for both containers */
+  height: 400px;
+  
+}
+.container-2{
+
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 24%, #bf1d1d 49%, #6940d2 75%, #1c80d0 100%);
+  
+  
+    /* background: linear-gradient(to bottom, rgb(18, 231, 235), rgb(255, 251, 0), rgba(128, 36, 0, 0.972), rgb(66, 0, 113));
+    height: 400px; Set a height for visibility */
+  
+}
+.container-1{
+  box-shadow: -15px 0px 15px 5px rgba(0, 0, 0, 0.5);
+  /* box-shadow: outset 5px 5px 10px rgba(0, 0, 0, 0.5); */
+  /* box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2), -2px -2px 5px rgba(0, 0, 0, 0.2); */
+  /* background-color: #FBAB7E; */
+  /* background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 24%, #bf1d1d 49%, #6940d2 75%, #1c80d0 100%); */
+  
+
+}
+.container-2 h1{
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  gap: 20px;
+}
+
+input {
+  /* text-decoration: underline;
+border: none; */
+outline: none;
+  display: block;
+  margin: 20px auto;
+  padding: 8px;
+  width: 80%; /* Adjust input width */
+  
+}
+.blue{
+  display: block;
+  margin: 25px auto;
+  padding: 10px;
+  width: 80%; /* Adjust input width */
+  background-color: #0056b3;
+  box-shadow: -15px 0px 15px 5px rgba(0, 0, 0, 0.5);
+  color: white
+}
+.red{
+  display: block;
+  margin: 25px auto;
+  padding: 10px;
+  width: 80%; /* Adjust input width */
+  background-color: #fc2020;
+  box-shadow: -15px 0px 15px 5px rgba(0, 0, 0, 0.5);
+
+}
+.nilli{
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 80%; /* Adjust input width */
+  background-color: #42f1fb;
+  box-shadow: -15px 0px 15px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+button {
+  width: 200px;
+  padding: 10px 20px;
+  background-color: #ed5624;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
